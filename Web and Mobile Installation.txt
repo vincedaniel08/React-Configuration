@@ -1,0 +1,90 @@
+
+--------------------WEB------------------
+   --code--                         --desc--
+npm install --global expo-cli -- installing expo
+npx create-react-app namefolder -- creating app folder for your project
+npm init react-app namefolder -- called new project folder
+(or), cd namefolder.
+npm install react-router-dom  -- for routers
+expo install firebase --save  -- for firebase
+npm install @material-ui/core -- for material UI
+npm install @material-ui/icons -- for icons
+npm start                   -- expo start
+
+link: https://material-ui.com/
+
+---------------------MOBILE------------------
+   --code--                          --desc--
+npm install -g expo-cli         -- installing expo
+expo init project-name          -- creating app folder for your project
+           --“Choose blank template”--
+cd project-name                 -- locate your new project folder
+npm install @react-navigation/native -- package react native
+
+           --"Installing dependencies into an Expo managed project"--
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+
+npm install @react-navigation/stack -- for stack navigatorn
+  -- Choose want you want to use --
+npm install @react-navigation/bottom-tabs -- bottom tabs
+npm install @react-navigation/drawer -- drawer 
+npm install @react-navigation/material-bottom-tabs react-native-paper -- bottom tabs with animation
+npm install @react-navigation/material-top-tabs react-native-tab-view@^2.16.0  -- Top navigation
+
+ ----optional---
+npm install react-native-elements
+npm install react-native-vector-icons
+
+expo install firebase --save      -- for firebase
+npm start                         -- expo start
+
+link: https://reactnavigation.org/
+https://reactnativeelements.com/docs/
+
+
+--------------------Git Command----------------------
+	--code---
+git clone (link)
+
+expo init project-name             -- for mobile
+npx create-react-app project-name  -- for web
+git status
+git add .
+git commit -m "initial files"
+git push
+
+link: https://git-scm.com/
+
+------How to Remove Unused Dependencies in React--------
+
+npm install -g depcheck 
+depcheck
+npm i (react-bootstrap)
+npm uninstall <package_name>
+npm uninstall --save react-bootstrap
+
+
+---------Cant reload website----------
+add file to your public folder
+file name: _redirects
+/*    /index.html   200
+
+
+--------Firestore CRUD---------------
+	const db = firebase.firestore();
+CREATE
+ db.collection("users").add({//data})/then
+ db.collection("users")
+	.doc(userid)
+	.collection("orders"
+	.add({//data})
+READ
+ db.collection("users").get()  - once fetch
+	.onSnapshot() - realtime fetch
+UPDATE
+	.update / .set
+DELETE
+	.delete
+
+
