@@ -1,5 +1,5 @@
 
---------------------WEB------------------
+--------------------React JS WEB------------------
    --code--                         --desc--
 npm install --global expo-cli -- installing expo
 npx create-react-app namefolder -- creating app folder for your project
@@ -20,7 +20,7 @@ link: https://material-ui.com/
 
 Reload page: window.location.reload();
 
----------------------MOBILE------------------
+---------------------React Native MOBILE------------------
    --code--                          --desc--
 npm install -g expo-cli         -- installing expo
 expo init project-name          -- creating app folder for your project
