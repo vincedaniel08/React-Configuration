@@ -138,3 +138,12 @@ cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
 cscript ospp.vbs /sethst:kms.teevee.asia
 cscript ospp.vbs /act
 cscript ospp.vbs /dstatus
+
+--------------------------------------------------------------------------
+Fix Windows 11 asks to look for an App in Microsoft Store while trying to open Windows Security
+
+Press the Win key to open the Start Menu
+Type Windows Powershell
+Click Run as administrator
+Type this command and press enter:
+Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage
