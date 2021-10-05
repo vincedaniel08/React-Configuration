@@ -14,6 +14,7 @@ https://day.js.org/docs/en/installation/node-js
 npm install get-google-fonts
 npm install react-icons-kit
 npm install bootstrap 
+npm install redux react-redux redux-thunk -- redux
 npm start                   -- expo start
 
 link: https://material-ui.com/
