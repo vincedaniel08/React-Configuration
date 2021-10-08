@@ -15,6 +15,7 @@ npm install get-google-fonts
 npm install react-icons-kit
 npm install bootstrap 
 npm install redux react-redux redux-thunk -- redux
+npm install @mui/material - material ui 5
 npm start                   -- expo start
 
 link: https://material-ui.com/
