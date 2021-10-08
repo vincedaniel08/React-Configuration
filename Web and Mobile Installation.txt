@@ -6,7 +6,7 @@ npx create-react-app namefolder -- creating app folder for your project
 npm init react-app namefolder -- called new project folder
 (or), cd namefolder.
 npm install react-router-dom  -- for routers
-expo install firebase --save  -- for firebase
+npm install firebase --save  -- for firebase
 npm install @material-ui/core -- for material UI
 npm install @material-ui/icons -- for icons
 npm install @material-ui/data-grid dayjs  -- day and grid
