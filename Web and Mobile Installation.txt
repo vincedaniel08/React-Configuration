@@ -52,6 +52,8 @@ npm start                         -- expo start
 link: https://reactnavigation.org/
 https://reactnativeelements.com/docs/
 
+------React Relocate file location------
+import image from '../../public/images/logofooter.png'
 
 --------------------Git Command----------------------
 	--code---
