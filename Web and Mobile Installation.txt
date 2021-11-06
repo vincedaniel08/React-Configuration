@@ -7,8 +7,6 @@ npm init react-app namefolder -- called new project folder
 (or), cd namefolder.
 npm install react-router-dom  -- for routers
 npm install firebase --save  -- for firebase
-npm install @material-ui/core -- for material UI
-npm install @material-ui/icons -- for icons
 npm install @material-ui/data-grid dayjs  -- day and grid
 https://day.js.org/docs/en/installation/node-js 
 npm install get-google-fonts
