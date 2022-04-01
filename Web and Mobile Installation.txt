@@ -25,7 +25,7 @@ npm start                   -- expo start
 link: https://material-ui.com/
 
 Reload page: window.location.reload();
-
+npm config set legacy-peer-deps true  -- err version react
 ---------------------React Native MOBILE------------------
    --code--                          --desc--
 npm install -g expo-cli         -- installing expo
