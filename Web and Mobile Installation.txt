@@ -177,3 +177,7 @@ Type Windows Powershell
 Click Run as administrator
 Type this command and press enter:
 Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage
+
+------------Docker Desktop-----------------------
+docker run --name mysql --platform linux/amd64 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123  -d mysql
+docker run --name mysql --platform linux/amd64 -p 3307:3307 -e MYSQL_ROOT_PASSWORD=123 -e MYSQL_USER=user -d mysql:5.7
