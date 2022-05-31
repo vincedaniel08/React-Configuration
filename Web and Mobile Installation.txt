@@ -76,6 +76,11 @@ git add .
 git commit -m "initial files"
 git push
 
+------
+git init
+git remote add origin {gitlink}  --git
+git remote			 --origin
+
 link: https://git-scm.com/
 
 ------How to Remove Unused Dependencies in React--------
