@@ -1,3 +1,14 @@
+-------------Laravel-----------------
+
+Command - Desc
+
+taskkill /im node.exe /F - kill and npm running
+
+php artisan make:controller TestController - Add Controller
+php artisan route:list - virtualsites -> file
+composer require rbdwllr/reallysimplejwt - install jwt -> virtualsites -> file
+
+
 --------------------Next JS ------------------
 npx create-next-app
 npm i next-redux-wrapper react-redux redux-thunk redux redux-devtools-extension
