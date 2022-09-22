@@ -8,6 +8,10 @@ php artisan make:controller TestController - Add Controller
 php artisan route:list - virtualsites -> file
 composer require rbdwllr/reallysimplejwt - install jwt -> virtualsites -> file
 
+Unzip file ubuntu
+
+cd file location 
+unzip file name
 
 --------------------Next JS ------------------
 npx create-next-app
