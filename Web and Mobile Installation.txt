@@ -9,7 +9,7 @@ php artisan route:list - virtualsites -> file
 composer require rbdwllr/reallysimplejwt - install jwt -> virtualsites -> file
 
 Unzip file ubuntu
-
+zip -r example.zip original_folder
 cd file location 
 unzip file name
 
